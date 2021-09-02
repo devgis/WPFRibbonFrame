@@ -1,0 +1,10 @@
+
+Source/Main/bin/
+Source/Main/obj/
+Source/Interfaces/bin/
+Source/Interfaces/obj/
+Source/Resources/bin/
+Source/Resources/obj/
+Source/MainApp/
+Source/packages/
+Source/.vs/MainApp/v16/.suo

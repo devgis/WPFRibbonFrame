@@ -1,0 +1,69 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <RootNamespace>DEVGIS.Resources</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Update="BigImage.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>BigImage.resx</DependentUpon>
+    </Compile>
+    <Compile Update="IconRes.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>IconRes.resx</DependentUpon>
+    </Compile>
+    <Compile Update="LanRes - 复制.Designer.cs">
+      <DependentUpon>LanRes.Designer.cs</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Update="LanRes.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>LanRes.resx</DependentUpon>
+    </Compile>
+    <Compile Update="MiddleImage.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>MiddleImage.resx</DependentUpon>
+    </Compile>
+    <Compile Update="SmallImage.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>SmallImage.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="BigImage.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>BigImage.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="IconRes.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>IconRes.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="LanRes.en-US.resx">
+      <LastGenOutput>LanRes.Designer.cs</LastGenOutput>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="LanRes.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>LanRes.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="MiddleImage.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>MiddleImage.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SmallImage.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SmallImage.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
